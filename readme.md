@@ -10,7 +10,7 @@ wabpack 是基于node    万物皆模块
 
 ## 安装
 
-npm i -y
+npm init -y
 
 npm i webpack webpack-cli -D
 
