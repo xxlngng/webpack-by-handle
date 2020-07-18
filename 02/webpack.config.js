@@ -44,10 +44,10 @@ module.exports = {
           },
         },
       },
-      {
-        test: /\.js$/,
-        use: path.resolve(__dirname, "./myLoaders/replaceLoader.js")
-      },
+      // {
+      //   test: /\.js$/,
+      //   use: path.resolve(__dirname, "./myLoaders/replaceLoader.js")
+      // },
       // {
       //   test: /\.js$/,
       //   use: [
