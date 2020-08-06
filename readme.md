@@ -41,7 +41,21 @@ loader   告诉webpack使用那种方式解析模块
 
 plugin
 
+## sourceMap
+- 为了开发时，快速的定位问题
+- 线上代码，有时候也会开启 前端错误定位，快速定位问题
+  + devtool: "cheap-moudle-eval-source-map"  //推荐方式
 
 
+## WabpackDevServer
+npm install webpack-dev-server
+devServer:{}
 
+## 解决跨域问题
+设置代理 proxy
 
+## Hot Module Replacement(HMR: 热模块替换)
+- 引入webpack
+- new webpack.HotModuleReplacementPlugin()
+局部的替换 不用更新
+- hotOnly

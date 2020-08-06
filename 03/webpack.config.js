@@ -55,6 +55,7 @@ module.exports = {
     contentBase: "./dist",
     port: 8081,
     open: true,
+    // 自动刷新浏览器
     hot: true,
     proxy: {
       "/api": {
@@ -72,6 +73,7 @@ module.exports = {
     // new miniCssExtractPlugin({
     //   filename: "css/[name]-[contenthash:6].css",
     // }),
+    // 热模块更新
     new webpack.HotModuleReplacementPlugin(),
   ],
 };
