@@ -59,3 +59,7 @@ devServer:{}
 - new webpack.HotModuleReplacementPlugin()
 局部的替换 不用更新
 - hotOnly
+
+## babel
+
+## 性能优化
